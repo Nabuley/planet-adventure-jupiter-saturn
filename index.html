@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목성 - 토성 탐험</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>목성 - 토성 탐험</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#highlights">하이라이트</a></li>
+                <li><a href="#itinerary">여행 일정</a></li>
+                <li><a href="#booking">예약</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>목성 - 토성 탐험</h2>
+        <div class="destination-info">
+            <div class="planet jupiter"></div>
+            <div class="planet saturn"></div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>소개</h2>
+        <p>
+            목성과 토성은 우주에서 가장 크고 아름다운 행성 중 하나입니다. 이들을 여행하여 우주의 신비를 발견해보세요.
+        </p>
+    </section>
+    <section id="highlights">
+        <h2>하이라이트</h2>
+        <div class="highlight-row">
+            <div class="highlight-text">
+                <p>목성의 아름다운 줄무늬와 대적점 관찰</p>
+            </div>
+            <div class="highlight-image">
+                <img src="images/jpt3.jpg" alt="목성의 아름다운 줄무늬와 대적점 관찰" width="300px">
+            </div>
+        </div>
+        <div class="highlight-row">
+            <div class="highlight-text">
+                <p>목성의 신비한 오로라 관찰</p>
+            </div>
+            <div class="highlight-image">
+                <img src="images/jpt4.jpg" alt="목성의 아름다운 줄무늬와 대적점 관찰" width="350px">
+            </div>
+        </div>
+        <div class="highlight-row">
+            <div class="highlight-text">
+                <p>토성의 아름다운 고리 구조</p>
+                <div class="highlight-image">
+                    <img src="images/sat2.jpg" alt="토성의 아름다운 고리 구조" width="350px">
+                </div>
+            </div>
+        </div>
+        <div class="highlight-row">
+            <div class="highlight-text">
+                <p>토성의 독틍한 태풍구조</p>
+            </div>
+            <div class="highlight-image">
+                <img src="images/sat1.jpg" alt="토성의 위성 구경" width="300px">
+            </div>
+        </div>
+    </section>
+    <section id="itinerary">
+        <h2>여행 일정</h2>
+        <ul>
+            <li><strong>1-45일:</strong> 우주를 구경하며 목성 도착</li>
+            <li><strong>45-47일:</strong> 착륙준비 및 목성의 대적점 관찰(8km높이의 소용돌이 관측 가능)</li>
+            <li><strong>47-48일:</strong> 목성의 얼음조각 위에서 스케이트를 타는 신비한 경험</li>
+            <li><strong>48-50일:</strong> 목성의 아름다운 오로라 관찰</li>
+            <li><strong>51-88일:</strong> 토성으로 이동</li>
+            <li><strong>89-92일:</strong> 토성의 뚜렷한 고리 관찰</li>
+            <li><strong>93-94일:</strong> 메탄강에서 수영(토성에서는 지구에서 물이 흐르듯 메탄이 액화하여 흐르기에 수영을 할 수 있습니다. 물론, 안전하게 정해진 구역 내에서 수영할 수 있습니다.)</li>
+            <li><strong>95-96일:</strong> 엔셀라두스의 간헐천 관측(수백만 킬로미터의 수증기와 얼음으로 이루어진 기둥입니다. 물론 지고와는 비교도 안되죠!)</li>
+            <li><strong>97-100일:</strong> 이륙 준비 및 북극폭풍, 육각형 모양 폭풍 구경</li>
+            <li><strong>101-184일:</strong> 지구로 귀환</li>
+        </ul>
+    </section>
+    <section id="booking">
+        <h2>예약</h2>
+        <p>
+            이 환상적인 여행을 예약하려면 아래 양식을 작성해주세요.
+        </p>
+        <form id="bookingForm">
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">이메일:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">추가 정보:</label>
+            <textarea id="message" name="message"></textarea>
+            <br>
+            <button type="submit">예약하기</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 목성 - 토성 탐험. 모든 권리 보유.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
