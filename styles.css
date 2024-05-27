@@ -39,6 +39,7 @@ section {
 
 a {
     text-decoration: none;
+    color:white;
 }
 
 #destinations input[type="text"] {
